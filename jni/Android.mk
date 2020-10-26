@@ -14,6 +14,8 @@ LOCAL_SRC_FILES += list.c
 LOCAL_SRC_FILES += memrchr.c
 LOCAL_SRC_FILES += process_iterator.c
 LOCAL_SRC_FILES += process_group.c
+APP_PLATFORM := android-25
+APP_ALLOW_MISSING_DEPS=true
 
 include $(BUILD_EXECUTABLE)
 
